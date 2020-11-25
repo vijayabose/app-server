@@ -8,6 +8,7 @@
   <artifactId>screenserve</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+
   <name>screenserve</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -74,6 +75,17 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+<!--        <plugin>-->
+<!--          <groupId>org.apache.maven.plugins</groupId>-->
+<!--          <artifactId>maven-assembly-plugin</artifactId>-->
+<!--          <configuration>-->
+<!--            <archive>-->
+<!--              <manifest>-->
+<!--                <mainClass>org.example.App</mainClass>-->
+<!--              </manifest>-->
+<!--            </archive>-->
+<!--          </configuration>-->
+<!--        </plugin>-->
       </plugins>
     </pluginManagement>
   </build>
